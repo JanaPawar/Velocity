@@ -15,7 +15,6 @@ public class ListnerClass extends BaseClass implements ITestListener
 	public void onTestSuccess(ITestResult result) {
 		Reporter.log("TC"+result.getName()+" is completed successfuly",true);
 	}
-
 	
 	public void onTestSkipped(ITestResult result) 
 	{

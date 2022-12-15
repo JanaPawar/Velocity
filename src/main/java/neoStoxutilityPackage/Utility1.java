@@ -24,6 +24,9 @@ public class Utility1 {
 		String value = prop.getProperty(key);
 		Reporter.log("reading value of "+key+" from property file",true);
 		return value;
+	
+		
+		
 		
 	}
 	public static void takeScreenshot(WebDriver driver,String fileName) throws IOException

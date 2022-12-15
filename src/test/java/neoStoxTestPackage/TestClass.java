@@ -34,6 +34,7 @@ public class TestClass extends BaseClass
 	 @BeforeClass
 	  public void neoStoxLaunching() throws IOException
 	 {
+		
 		 launchNeostox();
 		 home=new HomePage(driver);
 		 sButton=new SignInButton(driver);
