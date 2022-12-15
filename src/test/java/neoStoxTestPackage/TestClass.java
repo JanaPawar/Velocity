@@ -31,7 +31,6 @@ public class TestClass extends BaseClass
     SignInButton sButton;
     SignInPage signIn;
 
-	
 	 @BeforeClass
 	  public void neoStoxLaunching() throws IOException
 	 {
